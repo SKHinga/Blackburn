@@ -3,3 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* weight.html */
+#weight{
+    flex-direction: column;
+    height: 100vh;
+}
+.lastpage{
+    display: flex;
+    width: 50%;
+}
+.button{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    background: transparent;
+    border: solid red 1px;
+    border-radius: 100px;
+}
+
+/* forms.html */
+#details{
+    height: 100vh;
+    flex-direction: column;
+}
+.form-1{
+    display: flex;
+    width: 100vw;
+}
+.input{
+    background: transparent;
+    color: white;
+    padding: 10px;
+    border: solid red 1px;
+    border-radius: 100px;
+    font-size: 25px;
+}
+input::placeholder{
+    color: white;
+}
+p{
+    color: white;
+    padding: 20px;
+}
+
+/* details.html */
+.container-1{
+    height: 100vh;
+}
+.color{
+    background: transparent;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 100px;
+}
+.my-container{
+    width: 50%;
+}
+.my-row{
+    display: flex;
+    justify-content: center;
+}
+.my-button{
+    text-align: right;
+}
+#first-name{
+    width: 50%;
+}
+#last-name{
+    width: 50%;
+}
+#my-gender{
+    background-color: black;
+    color: white;
+}
