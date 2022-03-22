@@ -48,3 +48,21 @@
     padding: 3px 7px;
     border-radius: 10px;
   }
+.container{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+} 
+.text{
+    text-align:center;
+}
+img{
+    position:center;
+}
+.col{
+    font-size: 20px;
+}
