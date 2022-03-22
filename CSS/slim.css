@@ -1,0 +1,43 @@
+body{
+    background-color: #0A0A00;
+    color: white;
+}
+.slim{
+    position: absolute;
+    width: 586px;
+    height: 422px;
+    left: 818px;
+    top: 195px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+}
+.header{
+    position: absolute;
+width: 1341px;
+height: 196px;
+left: 52px;
+top: 809px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 96px;
+text-align: center;
+
+}
+.rec{
+    position: absolute;
+width: 1362px;
+height: 544px;
+left: 46px;
+top: 1200px;
+
+border: 1px solid #D01110;
+box-sizing: border-box;
+}
