@@ -49,17 +49,15 @@ height: fit-content;
   }
 .slim{
     position: absolute;
-    width: 586px;
-    height: 422px;
-    left: 940px;
-    top: 280px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 96px;
-    text-align: center;
+    top: 30%;   
+    left: 50%;
+    text-align: center; 
+    font-size: 350%;
+    width: 50%;
+
+}
+.hard1{
+    font-weight: bold;
 }
 .pic1{
     position: absolute;
@@ -84,9 +82,9 @@ font-size: 350%;
 .rec{
     position: absolute;
 width: 1700px;
-height: 1100px;
+height: 1480px;
 left: 1%;
-top: 2100px;
+top: 2250px;
 
 border: 1px solid #D01110;
 box-sizing: border-box;
@@ -95,7 +93,7 @@ h3{
     text-align: center;
     font-size: 300%;
     position: absolute;
-    top: 215%;
+    top: 230%;
     right: 33%;
 }
 .fit{
@@ -108,7 +106,7 @@ h3{
 width: 1340px;
 height: 346px;
 right: 19%;
-top: 1600px;
+top: 1700px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -122,33 +120,33 @@ h2{
     font-size: 120%;
     left: 100%;
 }
-.video{
+.step{
     position: absolute;
-    top: 90%;
-    left: 2%;
+    bottom: 40%;
+    right: 97%;
+    font-size: 36px;
+    text-align: center;
+    width: 90%;
 }
 h4{
     position: absolute;
-    left: 127%;
-    width: 20%;
-    bottom: 70%;
+    right: 130%;
+    width: 30%;
+    bottom: 65%;
     font-weight: 800;
-    font-size: xx-large;
+    font-size: 230%;
 }
-.step{
+.video{
     position: absolute;
-    font-size: xx-large;
-    text-align: center;
-    width: 90%;
-   bottom: 40%;
-   left: 95%; 
+   top: 90%;
+   left: 45%; 
    
 }
 .summary{
     position: absolute;
-    top:360%;
+    top:410%;
     text-align: justify;
-    left: 10%;
+    left: 8%;
     font-size: xx-large;
     border-left: #D01110 solid 1px;
     padding-left: 15px;
@@ -163,7 +161,7 @@ h5{
     color:white;
     cursor: pointer;
     padding: 18px;
-    width: 80%;
+    width: 70%;
     border: none;
     text-align: left;
     outline: none;
@@ -171,19 +169,36 @@ h5{
     transition: 0.4s;
     top:10%;
     text-align: center;
-   position: relative;
-   left: 4%;
+    position: relative;
+    left: 15%;
   }
   
   .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color:whitesmoke; 
+    color: #0A0A00;
   }
   
   #myDropdown {
     padding: 0 48px;
     display: none;
-    background-color:black;
     overflow: hidden;
     color:brown;
-    font-size: x-large;
+    font-size: 180%;
+    position: relative;
+    left: 10%;
+  }
+  .list{
+      font-size: 240%;
+      font-weight: bold;
+      text-align: center;
+  }
+  .info{
+      position: relative;
+      font-weight: bold;
+      left:20%;
+
+  }
+  .amaze{
+      position: absolute;
+      top:460%;
   }
