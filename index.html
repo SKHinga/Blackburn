@@ -5,11 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blackburn</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/landing.css">
 </head>
 <body>
-  <section class="video">
+  <section class="video" id="home">
     <!-- background video -->
     <video autoplay muted loop class="myVideo">
       <source src="Assets/pexels-tima-miroshnichenko-6388436.mp4" type="video/mp4">
@@ -20,27 +22,92 @@
       <div class="container-fluid">
         <div class="nav">
           <!-- navbar -->
-          <div class="row justify-content-between mt-1">
+          <div class="row justify-content-between px-3 mt-1">
             <div class="col-lg-2 d-flex gap-2">
               <div class="logo d-flex">
                 <p class="turn fs-1 fw-bold">B</p>
                 <p class="unturn fs-1 fw-bold"><span class="red">B</span></p>
               </div>
-              <h1 class="fs-2 mt-2">Black<span class="red">Burn</span></h1>
+              <h1 class="fs-2 homemt-2">Black<span class="red">Burn</span></h1>
             </div>
             <div class="col-lg-5 list">
               <ul class="d-flex mt-3 fw-bold w-100 justify-content-between">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#"><span class="log">Log in</span></a></li>
               </ul>
             </div>
           </div>
           <!-- navbar end -->
         </div>
-        
+          <div class="stop">
+              <h2 class="fw-bold fs-1 text-center">
+                STOP <br>
+                IMAGINING <br>
+                START <br>
+                NOW!
+              </h2>
+          </div>
+          <p id="about"></p>
+          <section class="burn">
+            <div class="container para">
+              <h2 class="text-center">About Us</h2>
+              <p>
+                <span class="red">Blackburn</span> studio, is the best place to learn how to stay fit and stay in shape, all in a relaxed, friendly and supportive atmosphere. Our fitness club pushes our clients to test their limits. The studio offers customized progressive processes to achieve desired outcomes
+              </p>
+              <p>
+                As for the training, there will be no meaningless moves or over-pushing, and you will have no chance to let your determination go astray. Regardless of your level, our experienced trainers make sure that you will be trained and prepared like a real fighter. The best 1-on-1 training comes with systematic break-down of techniques and fighting strategies to suit the training required by both beginners and more skilful fighters.
+              </p>
+              <p>
+                To guarantee consistency in the quality of training delivered by each trainer, each of our trainers has completed 100 hours of trainings on boxing techniques, pad works, bag works and coaching methodologies with our founder and master trainer. No similar system has ever been deployed for any boxing studio.
+              </p>
+              <p>
+                Our instructors are world-renowned and believe in connecting one-on-one with clients in order to encourage fitness progress.
+              </p>
+            </div>
+          </section>
+          <section class="foot mt-5" id="contact">
+            <div class="container">
+              <h3 class="text-center">Let's stay connected.</h3>
+              <p class="text-center">Subscribe to our newsletter to stay in the know about upcoming classes and events.</p>
+              <form action="" class="subscribe d-flex justify-content-around w-50 mx-auto gap-2">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <div class="button">
+                  <input type="button" value="submit" placeholder="Subscribe" class="submit">
+                </div>
+              </form>
+            </div>
+          </section>
+          <section class="log-off d-flex justify-content-center">
+            <div class="logo bigger d-flex">
+              <p class="turn fw-bold">B</p>
+              <p class="unturn fw-bold"><span class="red">B</span></p>
+            </div>
+          </section>
+          <!-- Footer section -->
+          <section class="footer">
+            <footer class="amaze">
+              <div class="row justify-content-between">
+                <div class="col-lg-3 w-40 d-flex justify-content-around">
+                  <a href="#"><ion-icon class="fs-3 text-light" name="logo-facebook"></ion-icon></a>
+                  <a href="#"><ion-icon class="fs-3 text-light" name="logo-twitter"></ion-icon></a>
+                  <a href="#"><ion-icon class="fs-3 text-light" name="logo-instagram"></ion-icon></a>
+                  <a href="#"><ion-icon class="fs-3 text-light" name="mail-outline"></ion-icon></a>
+                  <a href="#"><ion-icon class="fs-3 text-light" name="call-outline"></ion-icon></a>        
+                </div>
+                <div class="col-lg-4 mt-2 text-end">
+                  <p>© 2022 Blackburn. Terms and conditions.</p>
+                </div>
+              </div>
+              <div class="end text-center">
+                <p>Website by Nacturnals</p>
+              </div>
+            </footer>
+          </section>
+          <!-- footer end -->
       </div>
     </div>
   </section>

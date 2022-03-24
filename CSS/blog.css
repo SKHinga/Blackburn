@@ -1,0 +1,117 @@
+:root{
+    --main-bg-color:#0A0A00;
+    --main-color:#D01110;
+    --main-text-color:#
+    
+    
+}
+body {
+    background-color: var(--main-bg-color);
+
+}
+.row {
+    width: 100vw;
+  }
+  .red {
+    color: var(--main-color);
+  }
+  .turn {
+    transform: rotate(-45deg);
+  }
+  .unturn {
+    transform: rotate(45deg);
+  }
+  .list ul {
+    list-style: none;
+  }
+  .list ul li a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    transition: 0.3s ease;
+  }
+  .list ul li a:hover {
+   color: var(--main-color);
+   font-size: 15px;
+  }
+  .log:hover {
+    color: var(--main-text-color);
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+  }
+  .log {
+    background-color: var(--main-color);
+    padding: 3px 7px;
+    border-radius: 10px;
+  }
+h1{
+    color: #D01110;
+    position: absolute;
+    bottom: 80%;
+    left: 10%;
+}
+
+h2{
+    color: white
+    ;
+}
+.ab{
+    position: absolute;
+    color: white;
+text-align: justify;
+width: 40%;
+left: 50%;
+font-size: 170%;
+}
+p{
+    color: white;
+}
+.image{
+    position: relative;
+    height:80%;
+    left: 50%;
+}
+.image1{
+    position: absolute;
+    top: 200%;
+}
+.info{
+    position: absolute;
+    text-align: justify;
+    top:110%;
+    width: 46%;
+    font-size: xx-large;
+}
+h2{
+    color: #D01110;
+    position: absolute;
+    font-size: xx-large;
+    top: 70%;
+    left: 65%;
+}
+
+.advise{
+    position: absolute;
+left: 40%;
+top:220%;
+font-size: xx-large;
+    color: white;
+
+}
+.image2{
+    position: absolute;
+    top:280%;
+    left: 50%;
+}
+h3{
+    position: absolute;
+    top: 260%;
+    left: 65%;
+    color: #D01110;
+    font-size: xx-large;
+}
+.exercise{
+    position: absolute;
+    top: 310%;
+    left: 8%;
+    font-size: xx-large;
+}
