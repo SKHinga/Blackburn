@@ -81,8 +81,8 @@ font-size: 350%;
 }
 .rec{
     position: absolute;
-width: 1700px;
-height: 1480px;
+width: 1800px;
+height: 1520px;
 left: 1%;
 top: 2250px;
 
@@ -93,8 +93,8 @@ h3{
     text-align: center;
     font-size: 300%;
     position: absolute;
-    top: 230%;
-    right: 33%;
+    top: 232%;
+    right: 30%;
 }
 .fit{
     color: #D01110;
@@ -103,10 +103,10 @@ h3{
 
 .back{
     position: absolute;
-width: 1340px;
+width: 1250px;
 height: 346px;
-right: 19%;
-top: 1700px;
+right: 0%;
+top: 1680px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -130,9 +130,9 @@ h2{
 }
 h4{
     position: absolute;
-    right: 130%;
+    right: 128%;
     width: 30%;
-    bottom: 65%;
+    bottom: 70%;
     font-weight: 800;
     font-size: 230%;
 }
@@ -146,7 +146,7 @@ h4{
     position: absolute;
     top:410%;
     text-align: justify;
-    left: 8%;
+    left: 3%;
     font-size: xx-large;
     border-left: #D01110 solid 1px;
     padding-left: 15px;
@@ -195,6 +195,7 @@ h5{
   .info{
       position: relative;
       font-weight: bold;
+      font-size: 120%;
       left:20%;
 
   }
@@ -202,3 +203,22 @@ h5{
       position: absolute;
       top:460%;
   }
+.carb{
+    width: 32%;
+    position: absolute;
+    top:180%;
+}
+.line{
+    position: absolute;
+    text-align: left;
+    left: 115%;
+    width: 80%;
+    height: 100%;
+    top:2%;
+    border-left: #D01110 solid 1px;
+    padding-left: 15px;
+}
+h6{
+color: #D01110;
+font-size: 130%;
+}
