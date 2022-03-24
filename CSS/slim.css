@@ -2,11 +2,11 @@ body{
     background-color: #0A0A00;
     color: white;
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-width: fit-content;
-height: fit-content;
-
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  width: 100vw;
+  /* height: fit-content; */
+  overflow-x: hidden;
 }
 :root {
     --main-bg-color: #0A0A00;
@@ -48,30 +48,30 @@ height: fit-content;
     border-radius: 10px;
   }
 .slim{
-    position: absolute;
+    /* position: absolute;
     top: 30%;   
-    left: 900px;
-    text-align: center; 
-    font-size: 50px;
-    width: 900px;
+    left: 900px; */
+    /* text-align: center;  */
+    font-size: 30px;
+    /* width: 900px; */
 
 }
 .hard1{
     font-weight: bold;
 }
 .pic1{
-    position: absolute;
+    /* position: absolute;
 width: 850px;
 height: 570px;
 left: 0px;
-top: 134px;
+top: 134px; */
 
 }
 .header{
-position: absolute;
+/* position: absolute; */
 font-weight:bold;
-top:90%;
-left: 25%;
+/* top:90%;
+left: 25%; */
 font-size: 55px;
 
 }
@@ -80,20 +80,20 @@ font-size: 55px;
     font-weight: bold;
 }
 .rec{
-    position: absolute;
-width: 1800px;
-height: 1550px;
-left: 1%;
-top: 2250px;
+    /* position: absolute; */
+width: 80%;
+margin: auto;
+/* left: 1%;
+top: 2250px; */
 border: 1px solid #D01110;
 box-sizing: border-box;
 }
 h3{
     text-align: center;
     font-size: 50px;
-    position: absolute;
+    /* position: absolute;
     top: 2140px;
-    right: 30%;
+    right: 30%; */
 }
 .fit{
     color: #D01110;
@@ -101,50 +101,44 @@ h3{
 }
 
 .back{
-    position: absolute;
+    /* position: absolute; */
 width: 1250px;
 height: 346px;
-right: 0%;
-top: 1680px;
+/* right: 0%; */
+/* top: 1680px; */
 font-weight: 400;
 font-size: 36px;
 line-height: 54px;
 text-align: center;
 }
-h2{
-    font-weight: bold;
-    font-size: 40px;
-    left: 100%;
-}
-.step{
-    position: absolute;
-    bottom: 40%;
-    right: 97%;
-    font-size: 36px;
-    text-align: center;
-    width: 90%;
+/* h2 {
+  font-weight: bold;
+} */
+.step, .cut{
+    /* position: absolute; */
+    /* bottom: 40%;
+    right: 97%; */
+    font-size: 20px;
+    /* text-align: center; */
+    /* width: 90%; */
 }
 h4{
-    position: absolute;
-    right: 128%;
+    /* position: absolute; */
+    /* right: 128%; */
     width: 30%;
-    bottom: 70%;
+    /* bottom: 70%; */
     font-weight: 800;
-    font-size: 230%;
-}
-.video{
-    position: absolute;
-   top: 90%;
-   left: 45%; 
-   
+    /* font-size: 230%; */
 }
 .summary{
-    position: relative;
+    /* position: relative; */
     text-align: justify;
-    font-size: xx-large;
-    top:3800px;
+    /* font-size: xx-large; */
+    /* top:3800px; */
+    width: 40%;
+    margin: auto;
     height: 100%;
-    left: 2%;
+    /* left: 2%; */
     border-left: #D01110 solid 1px;
     padding-left: 15px;
 }
@@ -164,10 +158,10 @@ h5{
     outline: none;
     font-size: 25px;
     transition: 0.4s;
-    top:10%;
+    /* top:10%; */
     text-align: center;
-    position: relative;
-    left: 15%;
+    /* position: relative;
+    left: 15%; */
   }
   
   .active, .accordion:hover {
@@ -181,40 +175,37 @@ h5{
     overflow: hidden;
     color:brown;
     font-size: 30px;
-    position: relative;
-    left: 10%;
+    /* position: relative; */
+    /* left: 10%; */
   }
   .list{
-      font-size: 240%;
+      /* font-size: 240%; */
       font-weight: bold;
       text-align: center;
   }
   .info{
-      position: relative;
+      /* position: relative; */
       font-weight: bold;
       font-size: 35px;
-      left:20%;
-
-  }
-  .amaze{
-      position: absolute;
-      top:465%;
+      /* left:20%; */
   }
 .carb{
     width: 32%;
-    position: absolute;
-    top:180%;
+    /* position: absolute;
+    top:180%; */
 }
 .line{
-    position: relative;
+    /* position: relative; */
     text-align: justify;
-    font-size: xx-large;
-    top:3500px;
+    /* font-size: xx-large; */
+    /* top:3500px;
     left: 55%;
-    width: 50%;
+    width: 50%; */
+    width: 40%;
+    margin: auto;
     height: 100%;
-    border-left: #D01110 solid 1px;
-    padding-left: 15px;
+    border-right: #D01110 solid 1px;
+    /* padding-left: 15px; */
 }
 h6{
 color: #D01110;
