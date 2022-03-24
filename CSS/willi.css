@@ -13,9 +13,12 @@ body {
   }
 
   *,
-  *::before
+  *::before,
   *::after {
       box-sizing: border-box;
+  }
+  .try {
+      width: 100vw;
   }
 .row {
     width: 100vw;
@@ -63,10 +66,10 @@ body {
     font-family: 'poppins', sans-serif;
     font-size: 18px;
     color: var(--main-color);
-    min-height: 100vh;
+    width: 100vw;
     line-height: 1.6;
     font-family: sans-serif;
-    padding-left: 10em;
+    /* padding-left: 10em; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -79,7 +82,7 @@ body {
     padding-bottom: 50px;
 }
 
-/*
+
 #hero{
     width: 100%;
     height: 100vh;
@@ -104,13 +107,13 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
-/*
+
 #hero .text h1{
     font-size: 5vw;
     text-transform: capitalize;
     color: #fff;
 }
-*/
+
 #hero .text {
     width: 100%;
 }
@@ -132,7 +135,7 @@ body {
     cursor: pointer;
     font-size: 0.9vw;
 }
-*/
+
 /*
 
 #about{
@@ -144,33 +147,35 @@ body {
     align-items: center;
     background-color: #f3f3f3;
 }
+*/
 
 #about .information {
     display: flex;
-    padding-top: 4%;
-    justify-content: space-between;
+    /* padding-top: 4%; */
+    justify-content: space-around;
 }
 
 #about .information div {
     display: flex;
     justify-content: center;
-    width: 48%;
+    width: 50%;
 }
-*/
-/*
+
+
 #about .information .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
+
 
 #about .information .info p {
     padding-bottom: 3%;
     text-align: justify;
 }
-*/
-/*
+
+
 #about .information .info button {
     background-color: #ca0808;
     color: #fff;
@@ -182,7 +187,7 @@ body {
     cursor: pointer;
     font-size: 0.9vw;
 }
-*/
+
 #about .infomation .images {
     justify-content: flex-end;
 }
@@ -205,7 +210,7 @@ margin-right: 20px;
 /*
 hr {
     height: 0.2vw;
-    background-color: #ca0808;
+    background-color: white;
     outline: none;
     border:none;
     width: 5vw;
@@ -213,8 +218,8 @@ hr {
 }
 */
 .card0{
-    color: var(--main-text-color);
-    background-image: url(../Assets/willie/image3.jpg);
+    color: var(--main-bg-color);
+    background-image: url(../Assets/willie/image10.jpg);
     background-size: cover;
     padding: 10rem 0 0;
     max-width: 35ch;
@@ -224,7 +229,7 @@ hr {
 
 }
 .card1{
-    color: var(--main-text-color);
+    color: aqua;
     background-image: url(../Assets/willie/image12.jpg);
     background-size: cover;
     padding: 10rem 0 0;
@@ -235,7 +240,7 @@ hr {
 
 }
 .card2{
-    color: var(--main-text-color);
+    color: var(--main-bg-color);
     background-image: url(../Assets/willie/water11.jpg);
     background-size: cover;
     padding: 10rem 0 0;
@@ -246,7 +251,7 @@ hr {
 
 }
 .card3{
-    color: var(--main-text-color);
+    color: blueviolet;
     background-image: url(../Assets/willie/image14.jpg);
     background-size: cover;
     padding: 10rem 0 0;
@@ -257,7 +262,7 @@ hr {
 
 }
 .card4{
-    color: var(--main-text-color);
+    color: aqua;
     background-image: url(../Assets/willie/image5.jpg);
     background-size: cover;
     padding: 10rem 0 0;
