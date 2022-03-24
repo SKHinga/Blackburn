@@ -21,7 +21,7 @@ function signup(e) {
     };
     var json = JSON.stringify(user);
     localStorage.setItem(email, json);
-    window.location = '../Pages/forms.html'
+    window.location = '../Pages/forms.html';
 }
 
 
@@ -38,7 +38,7 @@ function signin(e) {
     if(user  == null){
         result.textContent='Wrong email';
     } else if(email == data.email && password == data.password) {
-       window.location = '../Pages/weight.html'
+       window.location = '../Pages/weight.html';
     } else {
         result.innerHTML = 'wrong password';
     }

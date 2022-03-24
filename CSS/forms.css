@@ -25,6 +25,12 @@ body {
     background: transparent;
     border: solid red 1px;
     border-radius: 100px;
+    text-align: center;
+}
+.but {
+    border: none;
+    background: transparent;
+    color: white;
 }
 
 /* forms.html */

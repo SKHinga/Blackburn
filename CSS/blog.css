@@ -7,7 +7,7 @@
 }
 body {
     background-color: var(--main-bg-color);
-
+    overflow-x: hidden;
 }
 .row {
     width: 100vw;
@@ -45,9 +45,9 @@ body {
   }
 h1{
     color: #D01110;
-    position: absolute;
+    /* position: absolute;
     bottom: 80%;
-    left: 10%;
+    left: 10%; */
 }
 
 h2{
@@ -55,17 +55,17 @@ h2{
     ;
 }
 .ab{
-    position: absolute;
+    /* position: absolute; */
     color: white;
 text-align: justify;
-width: 40%;
-left: 50%;
-font-size: 170%;
+/* width: 40%;
+left: 50%; */
+/* font-size: 170%; */
 }
 p{
     color: white;
 }
-.image{
+/* .image{
     position: relative;
     height:80%;
     left: 50%;
@@ -114,4 +114,4 @@ h3{
     top: 310%;
     left: 8%;
     font-size: xx-large;
-}
+} */
