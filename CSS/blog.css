@@ -9,6 +9,40 @@ body {
     background-color: var(--main-bg-color);
 
 }
+.row {
+    width: 100vw;
+  }
+  .red {
+    color: var(--main-color);
+  }
+  .turn {
+    transform: rotate(-45deg);
+  }
+  .unturn {
+    transform: rotate(45deg);
+  }
+  .list ul {
+    list-style: none;
+  }
+  .list ul li a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    transition: 0.3s ease;
+  }
+  .list ul li a:hover {
+   color: var(--main-color);
+   font-size: 15px;
+  }
+  .log:hover {
+    color: var(--main-text-color);
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+  }
+  .log {
+    background-color: var(--main-color);
+    padding: 3px 7px;
+    border-radius: 10px;
+  }
 h1{
     color: #D01110;
     position: absolute;
