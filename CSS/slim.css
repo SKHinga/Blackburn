@@ -52,7 +52,7 @@ height: fit-content;
     top: 30%;   
     left: 50%;
     text-align: center; 
-    font-size: 350%;
+    font-size: 50px;
     width: 50%;
 
 }
@@ -72,7 +72,7 @@ position: absolute;
 font-weight:bold;
 top:90%;
 left: 25%;
-font-size: 350%;
+font-size: 55px;
 
 }
 .fast{
@@ -91,7 +91,7 @@ box-sizing: border-box;
 }
 h3{
     text-align: center;
-    font-size: 300%;
+    font-size: 50px;
     position: absolute;
     top: 232%;
     right: 30%;
@@ -107,9 +107,6 @@ width: 1250px;
 height: 346px;
 right: 0%;
 top: 1680px;
-
-font-family: 'Poppins';
-font-style: normal;
 font-weight: 400;
 font-size: 36px;
 line-height: 54px;
@@ -117,7 +114,7 @@ text-align: center;
 }
 h2{
     font-weight: bold;
-    font-size: 120%;
+    font-size: 40px;
     left: 100%;
 }
 .step{
@@ -153,7 +150,7 @@ h4{
 }
 h5{
     color: #D01110;
-    font-size: 140%;
+    font-size: 50px;
 }
 
 .accordion {
@@ -183,7 +180,7 @@ h5{
     display: none;
     overflow: hidden;
     color:brown;
-    font-size: 180%;
+    font-size: 30px;
     position: relative;
     left: 10%;
   }
@@ -195,7 +192,7 @@ h5{
   .info{
       position: relative;
       font-weight: bold;
-      font-size: 120%;
+      font-size: 35px;
       left:20%;
 
   }
@@ -220,5 +217,5 @@ h5{
 }
 h6{
 color: #D01110;
-font-size: 130%;
+font-size: 47px;
 }
