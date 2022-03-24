@@ -50,10 +50,10 @@ height: fit-content;
 .slim{
     position: absolute;
     top: 30%;   
-    left: 50%;
+    left: 900px;
     text-align: center; 
     font-size: 50px;
-    width: 50%;
+    width: 900px;
 
 }
 .hard1{
@@ -82,10 +82,9 @@ font-size: 55px;
 .rec{
     position: absolute;
 width: 1800px;
-height: 1520px;
+height: 1550px;
 left: 1%;
 top: 2250px;
-
 border: 1px solid #D01110;
 box-sizing: border-box;
 }
@@ -93,7 +92,7 @@ h3{
     text-align: center;
     font-size: 50px;
     position: absolute;
-    top: 232%;
+    top: 2140px;
     right: 30%;
 }
 .fit{
@@ -140,11 +139,12 @@ h4{
    
 }
 .summary{
-    position: absolute;
-    top:410%;
+    position: relative;
     text-align: justify;
-    left: 3%;
     font-size: xx-large;
+    top:3800px;
+    height: 100%;
+    left: 2%;
     border-left: #D01110 solid 1px;
     padding-left: 15px;
 }
@@ -198,7 +198,7 @@ h5{
   }
   .amaze{
       position: absolute;
-      top:460%;
+      top:465%;
   }
 .carb{
     width: 32%;
@@ -206,12 +206,13 @@ h5{
     top:180%;
 }
 .line{
-    position: absolute;
-    text-align: left;
-    left: 115%;
-    width: 80%;
+    position: relative;
+    text-align: justify;
+    font-size: xx-large;
+    top:3500px;
+    left: 55%;
+    width: 50%;
     height: 100%;
-    top:2%;
     border-left: #D01110 solid 1px;
     padding-left: 15px;
 }
